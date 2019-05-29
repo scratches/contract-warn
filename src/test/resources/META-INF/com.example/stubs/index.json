@@ -1,0 +1,16 @@
+{
+  "id" : "8c4df5c8-8e5b-4ee2-91fe-e8098562e614",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"_links\":{\"markup\":{\"href\":\"http://localhost:{{request.requestLine.port}}/documents\"},\"guides\":{\"href\":\"http://localhost:{{request.requestLine.port}}/guides/\"}}}",
+    "headers" : {
+      "Content-Type" : "application/hal+json;charset=UTF-8"
+    },
+    "transformers": ["response-template"]
+  },
+  "uuid" : "8c4df5c8-8e5b-4ee2-91fe-e8098562e614"
+}
